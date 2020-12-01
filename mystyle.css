@@ -4,32 +4,31 @@ body{
 			background: pink;
 	}
 
-	#container{
+	#container {
 		position: relative;
-		top: 150px;
-		background: #ccc;
+		top: 100px;
 		width: 500px;
 	}
+
 	#content-box{
 		background: #fff;
 		padding: 15px;
-		margin: 15px;
 		margin-bottom: 15px;
 	}
 
-u1{
+ul {
+  position: relative;
+  margin-bottom: 13px;
   list-style-type: none;
   padding: 0px;
   display: flex;
-  justify content: left;
+  justify-content: left;
 }
+
 a {
-  position: relative;
-  margin-bottom: 13px;
   text-decoration: none;
   background: #fff;
   padding: 15px;
-  margin-bottom: -2px;
 }
 
 a:hover{
