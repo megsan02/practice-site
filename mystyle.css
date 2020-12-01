@@ -9,12 +9,19 @@ body{
 		top: 100px;
 		width: 500px;
 	}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 	#content-box{
 		background: #fff;
 		padding: 15px;
