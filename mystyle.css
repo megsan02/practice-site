@@ -4,15 +4,17 @@ body{
 			background: pink;
 	}
 
-IMG_9076 {
-  align-items: center;
-}
 	#container {
 		position: relative;
 		top: 100px;
 		width: 500px;
 	}
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
 	#content-box{
 		background: #fff;
 		padding: 15px;
