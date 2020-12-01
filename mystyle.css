@@ -1,0 +1,18 @@
+body{
+		display: flex;
+			justify-content: center;
+			background: pink;
+	}
+
+	#container{
+		position: relative;
+		top: 150px;
+		background: #ccc;
+		width: 500px;
+	}
+	#content-box{
+		background: #fff;
+		padding: 15px;
+		margin: 15px;
+		margin-bottom: 15px;
+	}
