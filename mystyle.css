@@ -1,7 +1,7 @@
 body{
 		display: flex;
 			justify-content: center;
-			background: pink;
+			background: #c5dbb6;
 	}
 
 
@@ -40,5 +40,5 @@ a {
 }
 
 a:hover{
-    background:red;
+    background:pink;
 }
