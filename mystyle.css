@@ -18,14 +18,14 @@ body{
 	}
 
 u1{
-  position: relative;
-  margin-bottom: 13px;
   list-style-type: none;
   padding: 0px;
   display: flex;
   justify content: left;
 }
-a{
+a {
+  position: relative;
+  margin-bottom: 13px;
   text-decoration: none;
   background: #fff;
   padding: 15px;
